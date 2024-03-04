@@ -16,3 +16,14 @@ This project provides SQL queries to perform various tasks such as:
 - Tracking book issuances and returns.
 - Displaying statistics such as total book counts by category and branch-wise employee 
   counts.
+
+**How to Use**
+To use this project, you can clone the repository and execute the SQL queries against your database management system.
+
+**Contribution**
+Feedback and contributions are appreciated! If you have any ideas, suggestions, or find any bugs, feel free to let us know. Your input helps us make this project better for everyone.
+
+**Conclusion**
+
+"In conclusion, this Library Management System project provides an efficient solution for organizing and managing library resources. Through the use of MySQL and SQL queries, the system effectively handles book management, employee tracking, customer records, and transaction management. With its user-friendly interface and comprehensive features, it streamlines library operations and enhances user experience.
+

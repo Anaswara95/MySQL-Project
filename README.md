@@ -15,7 +15,7 @@ This project consists of a database schema and SQL queries to perform various op
 - ist employee names and salaries in descending order of salary.
 - Retrieve book titles and corresponding customers who have issued those books.
 - Display total count of books in each category.
-- Retrieve employee names and positions for employees with salaries above Rs.50,000.
+- Retrieve employee names and positions for employees with salaries below Rs.50,000.
 - List customer names who registered before 2022-01-01 and have not issued any books yet.
 - Display branch numbers and total count of employees in each branch.
 - Display names of customers who issued books in June 2023.

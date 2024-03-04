@@ -10,12 +10,34 @@ This project consists of a database schema and SQL queries to perform various op
 5. **IssueStatus**: Records of books issued to customers including issue ID, customer ID, book name, and issue date.
 6. **ReturnStatus**: Records of books returned by customers including return ID, customer ID, book name, and return date.
 
-***This project provides SQL queries to perform various tasks such as:***
-- Retrieving information about available books.
-- Listing employee names and salaries.
-- Tracking book issuances and returns.
-- Displaying statistics such as total book counts by category and branch-wise employee 
-  counts.
+***Queries Implemented:***
+- Retrieve book title, category, and rental price of available books.
+- ist employee names and salaries in descending order of salary.
+- Retrieve book titles and corresponding customers who have issued those books.
+- Display total count of books in each category.
+- Retrieve employee names and positions for employees with salaries above Rs.50,000.
+- List customer names who registered before 2022-01-01 and have not issued any books yet.
+- Display branch numbers and total count of employees in each branch.
+- Display names of customers who issued books in June 2023.
+- Retrieve book titles containing "history".
+- Retrieve branch numbers along with count of employees for branches having more than 5 
+  employees.
+
+  **Additional Tasks Implemented**
+- Adding a new customer to the customer table.
+- Adding issue details to the issuestatus table when a book is issued.
+- Finding employees whose salary is less than the average salary of all employees.
+- Displaying the name and position of the employee with the highest salary.
+- Finding the second largest salary earned by an employee.
+- Retrieving details of customers who issued books separately in the years 2021, 2022, 
+  2023, and 2024.
+- Finding the total number of customers in the customer table.
+- Finding the average rental price of books in each category.
+- Identifying branches where the average salary of employees is above Rs. 45,000.
+- Listing books that have not been issued by any customer.
+- Determining the publisher with the highest number of books in the library.
+- Implementing before update and before delete triggers to enforce salary constraints in 
+  the employee table.
 
 # How to Use
 To use this project, you can clone the repository and execute the SQL queries against your database management system.
